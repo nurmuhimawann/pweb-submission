@@ -1,0 +1,21 @@
+body {
+    background-color: #191c24;
+}
+
+.card-content {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    filter: brightness(0.7);
+    transition: all 300ms ease-in-out;
+}
+
+.card-content:hover {
+    filter: brightness(1);
+    transform: scale(1.05)
+}
+
+.card-content button:hover {
+    outline: 1px solid;
+}
+
+
